@@ -1,0 +1,4 @@
+.theia
+django_todo\__pycache__
+.gitpod.dockerfile
+.gitpod.yml
