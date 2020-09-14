@@ -16,10 +16,21 @@
         {% else %}
           <td>{{ item.name }}</td>
         {% endif %}
+        <td>
+          <a href="/edit/{{ item.id }}"><button type="button" name="edit_button">Edit</button></a>
+        </td>
+        <td>
+          <a href="/toggle/{{ item.id }}"><button type="button" name="toggle_button">Toggle</button></a>
+        </td>
+        <td>
+          <a href="/delete/{{ item.id }}"><button type="button" name="delete_button">Delete</button></a>
+        </td>
       </tr>
       {% empty %}
         <tr><td>You have nothing to do!</td></tr>
+
     {% endfor %}
   </table>
+  <a href="/add"><button type="button" name="add_button">Add an item</button></a>
 </body>
 </html>
