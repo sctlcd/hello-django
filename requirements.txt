@@ -39,5 +39,5 @@ sqlparse==0.3.1
 toml==0.10.1
 urllib3==1.26.5
 virtualenv==20.0.31
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 wrapt==1.12.1
