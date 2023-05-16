@@ -13,7 +13,7 @@ dnspython==1.16.0
 filelock==3.0.12
 flake8==3.8.3
 flash==1.0.3
-Flask==1.1.2
+Flask==2.2.5
 Flask-PyMongo==2.3.0
 gunicorn==20.0.4
 idna==2.9
