@@ -16,7 +16,7 @@ flash==1.0.3
 Flask==2.2.5
 Flask-PyMongo==2.3.0
 gunicorn==22.0.0
-idna==2.9
+idna==3.7
 isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.17.2
